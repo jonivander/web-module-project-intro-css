@@ -1,0 +1,85 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+}
+
+html {
+    color: black;
+    font-size: 62.5%;
+
+}
+body {
+    font-size: 1.6rem;
+}
+
+.links {
+    margin: 0 10px;
+    display: inline-block;
+    width: 250px;
+}
+
+.links div a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 200px;
+    color: white;
+    text-align: center;
+}
+#visitbutton {
+    background-color: #FF754E;
+}
+
+#learnbutton {
+    background-color: #5FD3EC;
+}
+
+#involvedbutton {
+    background-color: #FECD6A;
+}
+#headerimg {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.picbox p {
+    text-align:center;
+}
+
+
+.textbox {
+    background-color: #DDB9A3; 
+
+}
+
+#footerimg {
+    object-fit: cover;
+    width: 100%;
+    height: 325px;
+    object-position: 0 15%;
+}

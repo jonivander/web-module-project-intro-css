@@ -24,7 +24,7 @@ time, mark, audio, video {
     padding:0;
     margin:0;
     max-width:100%;
-    border:2px solid grey;
+    border: 2px solid grey;
 }
 
 html {
@@ -93,6 +93,22 @@ h3 {
     font-size: 2em;
     float: right;
     text-align: center;
+}
+
+#fireicon {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#campericon {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #footerimg {

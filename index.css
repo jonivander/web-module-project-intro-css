@@ -24,7 +24,7 @@ time, mark, audio, video {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    border:2px solid grey;
 }
 
 html {
@@ -34,6 +34,18 @@ html {
 }
 body {
     font-size: 1.6rem;
+}
+
+#visitbutton {
+    background-color: #FF754E;
+}
+
+#learnbutton {
+    background-color: #5FD3EC;
+}
+
+#involvedbutton {
+    background-color: #FECD6A;
 }
 
 .links {
@@ -50,31 +62,36 @@ body {
     color: white;
     text-align: center;
 }
-#visitbutton {
-    background-color: #FF754E;
-}
-
-#learnbutton {
-    background-color: #5FD3EC;
-}
-
-#involvedbutton {
-    background-color: #FECD6A;
-}
 #headerimg {
-    width: 20%;
+    display: inline-block;
+    float: left;
+    width: 25%;
     height: auto;
     border-radius: 50%;
+    margin: 75px;
 }
 
-.picbox p {
+.picbox {
     text-align:center;
 }
 
 
+h2 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
 .textbox {
     background-color: #DDB9A3; 
-
+    width: 800px;
+    padding: 30px;
+    color: white;
+    font-size: 2em;
+    float: right;
+    text-align: center;
 }
 
 #footerimg {

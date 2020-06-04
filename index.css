@@ -48,20 +48,21 @@ body {
     background-color: #FECD6A;
 }
 
-.links {
-    margin: 0 10px;
-    display: inline-block;
-    width: 250px;
-}
-
-.links div a {
-    text-decoration: none;
+.links div {
+    margin: 20px;
+    width: 200px;
     padding: 20px;
     display: inline-block;
-    border-radius: 200px;
-    color: white;
+    border-radius: 20px;
     text-align: center;
+    font-size: 2em;
 }
+
+.links div a{
+    color: white;
+    text-decoration: none;
+}
+
 #headerimg {
     display: inline-block;
     float: left;
